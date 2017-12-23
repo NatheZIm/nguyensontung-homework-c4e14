@@ -1,6 +1,6 @@
 from mlab import mlab_connect
 from models.champ import Champ
-from random import choice
+from random import choice,randint
 
 mlab_connect()
 
@@ -28,10 +28,13 @@ champ_name = [
 
 champ_role = ["Assassin", "Maskman", "Mage", "Support", "Tank", "Fighter"]
 
+
 for i in champ_name:
     champ = Champ(
         image = i + ".png",
         name = i,
         role = choice(champ_role)
+
+
     )
     champ.save()
