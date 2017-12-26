@@ -22,11 +22,14 @@ def upload():
 def admin():
     return render_template("admin.html", champs = Champ.objects())
 
+
+
 @app.route("/delete/<champ_id>")
 def delete(champ_id):
     dels = Champ.objects(id = champ_id)
     dels.delete()
     return redirect("http://127.0.0.1:5000/admin",code =302)
+
 
 
 @app.route("/info/<champ_id>")

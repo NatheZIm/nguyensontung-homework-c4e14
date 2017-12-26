@@ -4,5 +4,3 @@ class Champ(Document):
     image = StringField()
     name = StringField()
     role = StringField()
-    lore = StringField()
-    money = IntField()

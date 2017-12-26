@@ -34,7 +34,5 @@ for i in champ_name:
         image = i + ".png",
         name = i,
         role = choice(champ_role)
-
-
     )
     champ.save()
