@@ -1,0 +1,201 @@
+.nav{
+  border: 2px solid;
+  border-width: 2px;
+  text-align: center;
+}
+
+.nav li{
+  display: inline;
+  background-color: #c2c2d6;
+}
+
+.nav a{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav3{
+  border: outset;
+  text-align: center;
+}
+
+.nav3 li{
+  display: inline;
+}
+
+.nav3 a{
+  display: inline-block;
+  padding: 10px;
+}
+
+.flex-grow{
+  flex-grow:2
+}
+
+h1{
+  text-align: center;
+}
+
+
+.border-outset{
+  border: outset
+}
+.nav2{
+  border:0px solid;
+}
+.nav2 li{
+  display: block;
+  background-color: #c2c2d6;
+  width: 100px;
+}
+
+.nav2 a{
+  display: inline-block;
+  padding: 10px;
+}
+
+.w-40{
+  width: 40%;
+}
+.h-200{
+  height: 200px;
+}
+
+.w-50px{
+  width: 50px;
+}
+
+.h-100px{
+  height: 50px;
+}
+
+.bg-green{
+  background-color:#99ffbb;
+}
+
+.bg-red{
+  background-color: red;
+}
+.box-size{
+  box-sizing: border-box;
+}
+.center-align{
+  padding: 50px;
+}
+.align-center{
+  align-items: center;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.h-640{
+  height: 1080px;
+}
+
+.h-1080{
+  height: 1080px;
+}
+.bg-image{
+    background-image: url("Joker.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-gray{
+  background-color: #838399;
+}
+
+.bg-pos{
+  background-attachment: fixed;
+}
+.d-flex{
+  display: flex;
+}
+.h-720{
+  height: 800px;
+}
+.h-1200{
+  height: 1200px;
+}
+.fix-pos{
+  background-attachment: fixed;
+}
+
+.d-inline-block{
+  display: inline-block;
+}
+.d-block{
+  display: block;
+}
+
+.d-inline{
+  display: inline;
+}
+.d-flex-stretch{
+  display: flex;
+  align-items: stretch;
+}
+
+
+.text-red{
+  color: red;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.font-family{
+  font-family: 'Who asks Satan',cursive;
+}
+.font-200px{
+  font-size: 200px;
+}
+.font-100px{
+  font-size: 100px;
+}
+
+.marg-top{
+  margin-top: 600px;
+}
+.marg-top-500px{
+  margin-top: 400px;
+  margin-left: 100px
+}
+.row-wrap{
+  flex-flow: row nowrap;
+}
+
+.bg-newyork{
+  background-image: url("logo.svg");
+  background-repeat: no-repeat;
+  width: 30%
+}
+
+.h-150{
+  height: 150px
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.w-500px{
+  width: 500px
+}
+.w-800px{
+  width: 800px
+}
+.h-500px{
+  height: 500px
+}
+
+#right{
+  margin-top: 200px
+}
+.margin-top-100px{
+  margin-top: 200px;
+}
